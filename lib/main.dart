@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:toonflix/screens/home_screen.dart';
 // import 'package:toonflix/widgets/stateless_example.dart';
 
 void main() {
@@ -10,6 +11,6 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Container());
+    return const MaterialApp(home: HomeScreen());
   }
 }
